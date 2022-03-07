@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         boton.setOnClickListener{
     var intent = Intent (this, ActividadB::class.java)
-            intent.putExtra("MENSAJE", "Hacia Actividad b")
+            intent.putExtra("MENSAJE", "Hacia Actividad B")
             startActivity(intent)
         }
     }
